@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { connect } from 'react-redux'
+import { createProject } from '../../store/actions/projectActions'
 
 class CreateProject extends Component {
     state = {
@@ -14,7 +16,8 @@ class CreateProject extends Component {
     handleSubmit = (e) => {
         // preventDefault prevents the default action of the form page to refresh when the user clicks the submit button
         e.preventDefault();
-        console.log(this.state);
+        this.props.createProject(this.state)
+        // Testing Functionality: console.log(this.state);
     }
     render() {
         return (
@@ -39,4 +42,13 @@ class CreateProject extends Component {
     }
 }
 
-export default CreateProject;
+const mapDispatchToProps = (dispatch) => {
+    return {
+        /* This line of code will run the function: project taking in that particular 'project data' and perform a dispatch
+        and call the action creator: createProject and that will return the asynchronous function call from the projectActions.js file where then we can carry on with the dispatch of the action.
+        */
+        createProject: (project) => dispatch(createProject(project))
+    }
+}
+
+export default connect(null, mapDispatchToProps)(CreateProject);

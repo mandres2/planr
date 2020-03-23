@@ -7,6 +7,9 @@ Project Task List Application built utilizing JavaScript, React/Redux, and Fireb
 To continue building web applications and understanding the MVC framework. This application was meant to help increase my skills in writing in JavaScript and to refresh my understanding on Front-End and Back-End Operations.
 
 ## Technologies Used
+* Redux
+* Redux-Thunk
+* Firebase Store
 
 ## Pre-Requisites
 
