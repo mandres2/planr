@@ -33,7 +33,7 @@ class CreateProject extends Component {
                         <textarea id="content" className="materialize-textarea" onChange={this.handleChange}></textarea>
                     </div>
                     <div className="input-field">
-                        <button className="btn cyan-lighten-2 z-depth-0">Create Project</button>
+                        <button className="btn deep-orange lighten-2 z-depth-0">Create Project</button>
                         {/* When the user presses the button this line of code will trigger the handleSubmit function which prevents the page from reloading */}
                     </div>
                 </form>
