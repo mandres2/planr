@@ -24,3 +24,7 @@ You will also see any lint errors in the console.
 #### Developer Log Notes
 
 :black_small_square: 3.22.20 - Established repository and set up framework. Began Front-End Operation Set-up via React/Redux format.
+<br>
+:black_small_square: 3.23.20 - Implemented Front-end Framework with React/Redux. Established Firebase/Firestore_db with application to import and export data in real-time
+<br>
+:black_small_square:
