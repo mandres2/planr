@@ -18,6 +18,7 @@ class CreateProject extends Component {
         // preventDefault prevents the default action of the form page to refresh when the user clicks the submit button
         e.preventDefault();
         this.props.createProject(this.state)
+        this.props.history.push('/');
         // Testing Functionality: console.log(this.state);
     }
     render() {
