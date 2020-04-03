@@ -1,10 +1,10 @@
 # planr
 
-Project Task List Application built utilizing JavaScript, React/Redux, and Firebase
+A project task list web application built with JavaScript, React/Redux, and Firebase
 
 ## Motive
 
-To continue building web applications and understanding the MVC framework. This application was meant to help increase my skills in writing in JavaScript and to refresh my understanding on Front-End and Back-End Operations.
+To develop a web-based application utilizing a properly structured MVC framework and to understand the asynchronous connections between the web application and Firebase with implementations of React & Redux. 
 
 ## Technologies Used
 * Redux
