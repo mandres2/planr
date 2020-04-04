@@ -25,10 +25,31 @@ exports.projectCreated = functions.firestore
     const project = doc.data();
     const notification = {
         content: 'Added a new project',
-        // This is a specific template syntax for Firebase but it is the same concept as concatenation
+        // This is a specific template syntax for Firebase, but it is the same concept as concatenation
         user: `${project.authorFirstName} ${project.authorLastName}`,
         time: admin.firestore.FieldValue.serverTimestamp()
     }
 
     return createNotifications(notification);
+
+});
+
+// Create a trigger that will fire when a user has been created using the auth service:
+exports.userJoined = functions.auth.user()
+    .onCreate(user => {
+
+        // Creates a reference to the user id document in the firestore collection
+        return admin.firestore().collection('users')
+            .doc(user.uid).get().then(doc => {
+
+                const newUser = doc.data();
+                const notification = {
+                    content: 'Successfully joined',
+                    user: `${newUser.firstName} ${newUser.lastName}`,
+                    time: admin.firestore.FieldValue.serverTimestamp()
+                }
+
+                return createNotifications(notification);
+
+            })
 })
