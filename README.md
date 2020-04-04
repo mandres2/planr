@@ -9,7 +9,7 @@ A simple project task list web application built with JavaScript, React/Redux, a
 #### Link
 * https://planr-eade0.firebaseapp.com/
 
-![alt text]()
+![alt text](https://github.com/mandres2/planr/blob/master/public/img/demo.gif?raw=true)
 
 ## Motive
 
