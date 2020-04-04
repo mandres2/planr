@@ -4,16 +4,22 @@ A project task list web application built with JavaScript, React/Redux, and Fire
 
 ## Motive
 
-To develop a web-based application utilizing a properly structured MVC framework and to understand the asynchronous connections between the web application and Firebase with implementations of React & Redux. 
+To develop a web-based application utilizing a properly structured MVC framework and to understand the asynchronous connections between the web application and Firebase with implementations of React & Redux.
 
 ## Technologies Used
 * Redux
 * Redux-Thunk
 * Firebase Store
-* Firebase Auth
+* Firebase Authentication/Firebase Cloud
 
 ## Pre-Requisites
 
+#### npm packages used
+``` npm install moment```
+```npm install -g firebase-tools```
+
+### `npm i`
+### `npm install -y'
 ### `npm start`
 
 Runs the app in the development mode.<br />
@@ -29,4 +35,4 @@ You will also see any lint errors in the console.
 :black_small_square: 3.23 - Implemented Front-end Framework with React/Redux. Established Firebase/Firestore_db with application to import and export data in real-time.
 <br>
 :black_small_square: 3.24 -- 4.2 - Asynchrously connected user authentication (includes: registration and login) to application and Firebase. Debugging and fixing up Front-End UI
-:black_small_square: 4.3 - 
+:black_small_square: 4.3 -
