@@ -30,7 +30,7 @@ To develop a web-based application utilizing a properly structured MVC framework
 <br>
 `npm init -y`
 <br>
-`npm i'
+`npm i`
 <br>
 
 ### `npm start`
