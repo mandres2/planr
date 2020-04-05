@@ -47,4 +47,5 @@ You will also see any lint errors in the console.
 :black_small_square: 3.23 - Implemented Front-end Framework with React/Redux. Established Firebase/Firestore_db with application to import and export data in real-time.
 <br>
 :black_small_square: 3.24 -- 4.2 - Asynchrously connected user authentication (includes: registration and login) to application and Firebase. Debugging and fixing up Front-End UI.
+<br>
 :black_small_square: 4.3 - Final polished and deployment to Firebase cloud server and GitHub.
