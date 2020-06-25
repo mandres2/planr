@@ -1,6 +1,6 @@
 # planr
 
-A simple project task list web application built with JavaScript, React/Redux, and Firebase
+Project task list application built with JavaScript, React/Redux, and Firebase
 
 ![alt text](https://github.com/mandres2/planr/blob/master/public/img/frontEndUI.png?raw=true)
 
